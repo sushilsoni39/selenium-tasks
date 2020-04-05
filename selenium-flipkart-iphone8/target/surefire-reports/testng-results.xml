@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="13305" started-at="2020-04-05T13:20:36Z" finished-at="2020-04-05T13:20:49Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="13305" started-at="2020-04-05T13:20:36Z" finished-at="2020-04-05T13:20:49Z">
+      <class name="org.example.AppTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.example.AppTest@180bc464]" name="beforeClass" is-config="true" duration-ms="17" started-at="2020-04-05T13:20:36Z" finished-at="2020-04-05T13:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TestCase1(java.lang.String)[pri:0, instance:org.example.AppTest@180bc464]" name="TestCase1" duration-ms="13272" started-at="2020-04-05T13:20:36Z" data-provider="productName" finished-at="2020-04-05T13:20:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple iPhone 8 Plus (PRODUCT)RED (Red, 64 GB)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+      </class> <!-- org.example.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
