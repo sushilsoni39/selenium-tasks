@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.539 s <<< FAILURE! - in TestSuite
+testCase3(com.fico.tests.TestClass2)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.RuntimeException
+	at com.fico.tests.TestClass2.testCase3(TestClass2.java:9)
+
